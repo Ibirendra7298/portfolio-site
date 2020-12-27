@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54162bf1.chunk.css",
+    "main.js": "/static/js/main.5876d365.chunk.js",
+    "main.js.map": "/static/js/main.5876d365.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.e4346227.chunk.css": "/static/css/2.e4346227.chunk.css",
+    "static/js/2.5686f010.chunk.js": "/static/js/2.5686f010.chunk.js",
+    "static/js/2.5686f010.chunk.js.map": "/static/js/2.5686f010.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.27f62a280183369d12244a4129df5017.js": "/precache-manifest.27f62a280183369d12244a4129df5017.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.54162bf1.chunk.css.map": "/static/css/main.54162bf1.chunk.css.map",
+    "static/js/2.5686f010.chunk.js.LICENSE.txt": "/static/js/2.5686f010.chunk.js.LICENSE.txt",
+    "static/media/computervision.jpg": "/static/media/computervision.2ad46b8b.jpg",
+    "static/media/deeplearningimg.jpg": "/static/media/deeplearningimg.731f0fdb.jpg",
+    "static/media/mypic.png": "/static/media/mypic.22964748.png",
+    "static/media/timeseries.png": "/static/media/timeseries.4f4d861f.png",
+    "static/media/webdevelopment.jpeg": "/static/media/webdevelopment.2ddf177f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.5686f010.chunk.js",
+    "static/css/main.54162bf1.chunk.css",
+    "static/js/main.5876d365.chunk.js"
+  ]
+}
