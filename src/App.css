@@ -126,12 +126,12 @@
   background-size: cover;
 }
 
-.about-grid::-webkit-scrollbar, .contact-grid::-webkit-scrollbar {
+.about-grid::-webkit-scrollbar, .contact-grid::-webkit-scrollbar, .landing-grid::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.about-grid, .contact-grid {
+.about-grid, .contact-grid, .landing-grid {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
