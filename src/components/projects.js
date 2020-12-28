@@ -16,8 +16,9 @@ class Projects extends Component {
     {
       return(
         <div className="project-grid">
-
+          <div className="row">
           {/* PROJECT#1 */}
+          <div className="col-md-6" style={{padding:"auto",marginBottom:'10px'}}>
           <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px', background:
           'url('+DeeplearningImg+') center/cover'}}
@@ -33,11 +34,12 @@ class Projects extends Component {
             <IconButton name="share"/>
           </CardMenu>
         </Card>
-
+        </div>
     
 
 
         {/*PROJECT #2*/}
+        <div className="col-md-6" style={{padding:"auto",marginBottom:'10px'}}>
         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
           <CardTitle style={{color: '#fff', height:'176px', background:
           'url('+Computervision+') center/cover'}}
@@ -54,6 +56,8 @@ class Projects extends Component {
             <IconButton name="share"/>
           </CardMenu>
         </Card>
+        </div>         
+        </div>         
         </div>         
       )
     }

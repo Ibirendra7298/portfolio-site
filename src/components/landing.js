@@ -3,6 +3,28 @@ import { Grid, Cell } from 'react-mdl'
 import Mypic from '../assets/mypic.png'
 
 class Landing extends Component {
+  constructor(props){
+    super(props);
+    console.log(window.innerWidth> window.innerHeight);
+    this.state={
+      headingStyle:{
+        fontSize: window.innerHeight > window.innerWidth ? "10vw" : "10vh"
+      }
+    }
+  }
+  updateDimensions = () => {
+    this.setState({
+      headingStyle:{
+        fontSize: window.innerHeight > window.innerWidth ? "10vw" : "10vh"
+      } 
+    });
+  };
+  componentDidMount() {
+    window.addEventListener('resize', this.updateDimensions);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateDimensions);
+  }
   render() {
     return (
       <div style={{width: '100%', margin: 'auto'}}>
@@ -15,7 +37,8 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+            <h1 style={this.state.headingStyle}>Full Stack Web Developer</h1>
+              {/* <span style={{fontSize:'2vw'}}>Full Stack Web Developer</h1> */}
 
                <hr/>
 
